@@ -1,0 +1,150 @@
+body{
+vertical-align: middle;
+background-image: url('../img/hot-wheels-bone-shaker.jpg');
+background-attachment: fixed;
+background-size: 100% auto;
+font-family: Arial;
+font-size: 12px;
+line-height: 20px;
+font:Arial;
+}
+p{
+	text-align: justify;
+}
+
+.img_container {
+	text-align: center;
+}
+
+/*a:hover {
+  background: #2EE59D;
+  box-shadow: 0 15px 20px rgba(46,229,157,.4);
+  color: white;
+  transform: translateY(-7px);
+}*/
+
+table.glowna{
+	margin-top: 230px;
+	
+	font:Arial;
+	
+	
+}
+td.naglowek{
+	
+	font:Arial;
+	/*background-color: transporent;*/
+	/*background-image: url('naglowek.png');*/
+}
+
+td.tresc{
+	font:Arial;
+	background-color: #F6FD68;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+td.menu_t{
+	font:Arial;
+	color: #2c2c2d;
+	height: 30px;
+	width: 16%;
+}
+a.menu_l{
+	
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 100px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 100px;
+  margin: 1px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: #2c2c2d;
+  background: #FFD700;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+
+}
+
+
+
+a.menu_l:hover{
+	text-decoration: none;
+	background-color: #ff3333;
+	transform: translateY(-5px);
+}
+
+.data{
+	background: #ffffff;
+	font-weight:normal;
+	margin-bottom: 20px;
+	
+}
+
+.data td{
+	
+	border-bottom: 1px solid #888888;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:30px;
+}
+
+.data tr:hover
+{
+	background: #EFEFEF;
+}
+
+.head{
+	font-weight: bold;
+	text-align: left;
+	background: #e8e8e8;
+}
+.dodaj{
+ text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 7px 10px;
+  margin: 10px 20px;
+  position: relative;
+  color: white;
+  border: 1px solid rgba(255,255,255,.4);
+  background: #FFD700;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.dodaj:hover{
+	text-decoration: none;
+	background-color: #ff3333;
+	transform: translateY(-5px);
+}
+
+.edytuj{
+	
+ text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 7px 10px;
+  margin: 5px 10px;
+  position: relative;
+  color: white;
+  border: 1px solid rgba(255,255,255,.4);
+  background: #FFD700;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.edytuj:hover{
+	text-decoration: none;
+	background-color: #ff3333;
+	transform: translateY(-3px);
+}
